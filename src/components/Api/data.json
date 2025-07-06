@@ -1,0 +1,199 @@
+{
+    "request": {
+        "place_id": "delhi",
+        "language": "en",
+        "unit": "metric"
+    },
+    "response": {
+        "lat": "51.50853N",
+        "lon": "0.12574W",
+        "elevation": 25,
+        "timezone": "Asia/Kolkata",
+        "units": "metric",
+        "current": {
+            "icon": "overcast",
+            "icon_num": 7,
+            "weather": "Overcast",
+            "summary": "Overcast",
+            "temperature": 30.2,
+            "feels_like": 33.8,
+            "dew_point": 14.8,
+            "wind": {
+                "speed": 2.2,
+                "gusts": 2.8,
+                "angle": 161,
+                "dir": "SSE"
+            },
+            "precipitation": {
+                "total": 0,
+                "type": "none"
+            },
+            "cloud_cover": 100,
+            "irradiance": 453.48,
+            "pressure": 998,
+            "uv_index": 7.59,
+            "humidity": 38
+        },
+        "hourly": {
+            "data": [
+                {
+                    "date": "2025-07-06T10:00:00",
+                    "weather": "overcast",
+                    "icon": 7,
+                    "summary": "Overcast",
+                    "temperature": 20.2,
+                    "feels_like": 21,
+                    "dew_point": 14.5,
+                    "wind": {
+                        "speed": 3.4,
+                        "dir": "WNW",
+                        "angle": 284
+                    },
+                    "cloud_cover": {
+                        "total": 98
+                    },
+                    "precipitation": {
+                        "total": 0,
+                        "type": "none"
+                    },
+                    "pressure": 1012,
+                    "humidity": 80,
+                    "irradiance": 400
+                },
+                {
+                    "date": "2025-07-06T11:00:00",
+                    "weather": "overcast",
+                    "icon": 7,
+                    "summary": "Overcast",
+                    "temperature": 20.2,
+                    "feels_like": 21,
+                    "dew_point": 14.8,
+                    "wind": {
+                        "speed": 4.1,
+                        "dir": "WNW",
+                        "angle": 289
+                    },
+                    "cloud_cover": {
+                        "total": 100
+                    },
+                    "precipitation": {
+                        "total": 0,
+                        "type": "none"
+                    },
+                    "pressure": 1011,
+                    "humidity": 82,
+                    "irradiance": 380
+                },
+                {
+                    "date": "2025-07-06T12:00:00",
+                    "weather": "light_rain",
+                    "icon": 10,
+                    "summary": "Light rain",
+                    "temperature": 31,
+                    "feels_like": 34.5,
+                    "dew_point": 16.2,
+                    "wind": {
+                        "speed": 0.9,
+                        "gusts": 3.3,
+                        "dir": "S",
+                        "angle": 182
+                    },
+                    "cloud_cover": {
+                        "total": 100
+                    },
+                    "precipitation": {
+                        "total": 0.2,
+                        "type": "rain"
+                    },
+                    "pressure": 998,
+                    "humidity": 41,
+                    "irradiance": 579.59
+                },
+                {
+                    "date": "2025-07-06T13:00:00",
+                    "weather": "light_rain",
+                    "icon": 10,
+                    "summary": "Light rain",
+                    "temperature": 32,
+                    "feels_like": 36,
+                    "dew_point": 17,
+                    "wind": {
+                        "speed": 1.5,
+                        "dir": "S",
+                        "angle": 180
+                    },
+                    "cloud_cover": {
+                        "total": 95
+                    },
+                    "precipitation": {
+                        "total": 0.3,
+                        "type": "rain"
+                    },
+                    "pressure": 997,
+                    "humidity": 43,
+                    "irradiance": 600
+                }
+            ]
+        },
+        "daily": {
+            "data": [
+                {
+                    "day": "2025-07-06",
+                    "weather": "rain",
+                    "icon": 12,
+                    "summary": "Rain showers in the morning changing to cloudy in the afternoon and thunderstorms later in the evening. Temperature 27/33 °C.",
+                    "all_day": {
+                        "temperature_min": 27.2,
+                        "temperature_max": 33,
+                        "wind": {
+                            "speed": 2.2,
+                            "dir": "SSE",
+                            "angle": 161
+                        },
+                        "cloud_cover": {
+                            "total": 90
+                        },
+                        "precipitation": {
+                            "total": 1.5,
+                            "type": "rain"
+                        },
+                        "probability": {
+                            "precipitation": 50
+                        }
+                    },
+                    "astro": {
+                        "sun": {
+                            "rise": "2025-07-06T05:28:15",
+                            "set": "2025-07-06T19:23:11"
+                        }
+                    }
+                },
+                {
+                    "day": "2025-07-07",
+                    "weather": "partly_sunny",
+                    "icon": 4,
+                    "summary": "Mostly cloudy changing to clear by evening. Temperature 14/22 °C.",
+                    "all_day": {
+                        "temperature_min": 14,
+                        "temperature_max": 22,
+                        "wind": {
+                            "speed": 4.4,
+                            "dir": "NNW",
+                            "angle": 345
+                        },
+                        "cloud_cover": {
+                            "total": 66
+                        },
+                        "precipitation": {
+                            "total": 7.9,
+                            "type": "rain"
+                        }
+                    }
+                }
+            ]
+        },
+        "minutely": {
+            "summary": "Summary not available for this area."
+        }
+    }
+}
